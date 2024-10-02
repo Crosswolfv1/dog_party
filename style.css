@@ -14,6 +14,10 @@ header {
   align-items: center;
 }
 
+img {
+  border: 3px solid #048eaa;
+}
+
 .logo {
   height: 50px;
 }
@@ -47,7 +51,6 @@ li a {
   border-radius: 50%;
   margin: 20px 0;
   background: #048eaa;
-  border: 3px solid #048eaa;
 }
 
 .hero form {
@@ -64,3 +67,36 @@ li a {
   cursor: pointer;
 }
 
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 20px;
+  background-color: #f0f0f0;
+}
+
+.dog-info {
+  text-align: center;
+}
+.dog-info img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.dog-info h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.dog-info p {
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.dog-info button {
+  padding: 10px 20px;
+  background-color: #048eaa;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
