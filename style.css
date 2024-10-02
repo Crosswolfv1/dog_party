@@ -14,6 +14,10 @@ header {
   align-items: center;
 }
 
+footer {
+  background-color: #048eaa;
+}
+
 img {
   border: 3px solid #048eaa;
 }
@@ -48,6 +52,11 @@ li a {
 
 .hero h1 {
   font-size: 2.5em;
+  font-weight: normal;
+}
+
+.hero h1 strong {
+  font-weight: bold; 
 }
 
 .hero img {
@@ -119,12 +128,28 @@ label[for="dog-name"] {
   margin: 10px 0;
 }
 
-
-
 .dog-info button {
   padding: 10px 20px;
   background-color: #048eaa;
   color: #ffffff;
   border: none;
   cursor: pointer;
+}
+
+.links {
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.social-info {
+  display: inline-block; 
 }
